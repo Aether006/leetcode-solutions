@@ -1,6 +1,12 @@
 # leetcode-solutions
 A collection of my solutions to LeetCode problems, organized by difficulty and topic. Solutions are written in C#.
 
+## Progress  
+- **Easy:** 2/828 solved  
+- **Medium:** 0/1733 solved  
+- **Hard:** 0/752 solved  
+
+
 ## Table of Contents
 
 | #  | Problem | Difficulty | Solution |

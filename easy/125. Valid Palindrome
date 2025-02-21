@@ -1,0 +1,27 @@
+using System.Text.RegularExpressions;
+public class Solution {
+    public bool IsPalindrome(string s) 
+    {
+        Regex regex = new Regex("[a-z]");
+        Regex regex2 = new Regex("[0-9]");
+        string flitered = "";
+
+        foreach (char c in s.ToLower())
+        {
+            if (regex.IsMatch(c.ToString()) || regex2.IsMatch(c.ToString()))
+            {
+                flitered += c;
+            }
+        }
+
+        if (flitered == new string(flitered.Reverse().ToArray()))
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+        
+}
